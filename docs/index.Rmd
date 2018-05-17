@@ -1,7 +1,11 @@
 ---
 title: "О единорогах и временных рядах"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
+
+* [Видео-лекции](https://www.youtube.com/watch?v=fMLLt9cywAw&list=PLJaoagXyJROgy5wPOZcBoP1aOK6XXOpjz)
 
 ## Встреча 1
 
@@ -16,7 +20,14 @@ output: html_document
 * Все [ETS-модели](https://otexts.org/fpp2/ets.html) 
 * Оригинальная [статья Кливленда](http://www.wessa.net/download/stl.pdf) про STL
 * STL пример, [часть 1](http://www.gardner.fyi/blog/STL-Part-I/) и [часть 2](http://www.gardner.fyi/blog/STL-Part-II/)
-* [LOESS-регрессия]()
+
+
+Весь код для loess:
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+qplot(data = trees, x = Girth, y = Height) + stat_smooth(method = "loess", span = 1)
+```
+
 
 
 ## Встреча 2 (возможный амбициозный план)
@@ -43,3 +54,9 @@ output: html_document
 
 
 * Презентация [FASSTER]()
+
+
+
+
+
+
