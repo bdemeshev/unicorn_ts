@@ -1,0 +1,45 @@
+---
+title: "О единорогах и временных рядах"
+output: html_document
+---
+
+## Встреча 1
+
+1. ETS-модели
+
+2. LOESS-регрессия
+
+3. STL-разложение
+
+
+* Кратко [про всё сразу](https://robjhyndman.com/files/2-AutomaticForecasting.pdf)
+* Все [ETS-модели](https://otexts.org/fpp2/ets.html) 
+* Оригинальная [статья Кливленда](http://www.wessa.net/download/stl.pdf) про STL
+* STL пример, [часть 1](http://www.gardner.fyi/blog/STL-Part-I/) и [часть 2](http://www.gardner.fyi/blog/STL-Part-II/)
+* [LOESS-регрессия]()
+
+
+## Встреча 2 (возможный амбициозный план)
+
+1. ARIMA кратко
+
+2. Базис Фурье
+
+3. TBATS
+
+4. Схематично PROPHET
+
+* Пакет [prophet](https://facebook.github.io/prophet/) от Фейсбука
+* Статья [tbats](https://robjhyndman.com/papers/ComplexSeasonality.pdf)
+
+
+## Встреча 3 (возможный амбициозный план)
+
+1. Фильтр Калмана
+
+2. DLM
+
+3. FASSTER
+
+
+* Презентация [FASSTER]()
