@@ -6,6 +6,7 @@ editor_options:
 ---
 
 * [Видео-лекции](https://www.youtube.com/watch?v=fMLLt9cywAw&list=PLJaoagXyJROgy5wPOZcBoP1aOK6XXOpjz)
+* Прототип [задачника по рядам](https://github.com/bdemeshev/ts_pset/raw/master/ts_pset_main.pdf). Полностью наш, отечественный продукт :)
 
 ## Встреча 1
 
@@ -40,6 +41,8 @@ qplot(data = trees, x = Girth, y = Height) + stat_smooth(method = "loess", span 
 
 4. Схематично PROPHET
 
+* Смысл непрерывного [преобразования Фурье](https://www.youtube.com/watch?v=spUNpyF58BY) от 3blue1brown
+* Walter Lewin [Fourier Analysis, Time evolution of Pulses on Strings](https://www.youtube.com/watch?v=k3byqIaULb8)
 * Пакет [prophet](https://facebook.github.io/prophet/) от Фейсбука
 * Статья [tbats](https://robjhyndman.com/papers/ComplexSeasonality.pdf)
 
@@ -53,7 +56,8 @@ qplot(data = trees, x = Girth, y = Height) + stat_smooth(method = "loess", span 
 3. FASSTER
 
 
-* Презентация [FASSTER]()
+* Виньетка [пакета glm](https://cran.r-project.org/web/packages/dlm/vignettes/dlm.pdf) 
+* Презентация [FASSTER](http://www.mitchelloharawild.com/melburn17/#1)
 
 
 
