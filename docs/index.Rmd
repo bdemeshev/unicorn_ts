@@ -1,7 +1,7 @@
 ---
 title: "О единорогах и временных рядах"
 output: html_document
-editor_options: 
+editor_options:
   chunk_output_type: console
 ---
 
@@ -18,7 +18,7 @@ editor_options:
 
 
 * Кратко [про всё сразу](https://robjhyndman.com/files/2-AutomaticForecasting.pdf)
-* Все [ETS-модели](https://otexts.org/fpp2/ets.html) 
+* Все [ETS-модели](https://otexts.org/fpp2/ets.html)
 * Оригинальная [статья Кливленда](http://www.wessa.net/download/stl.pdf) про STL
 * STL пример, [часть 1](http://www.gardner.fyi/blog/STL-Part-I/) и [часть 2](http://www.gardner.fyi/blog/STL-Part-II/)
 
@@ -31,36 +31,39 @@ qplot(data = trees, x = Girth, y = Height) + stat_smooth(method = "loess", span 
 
 
 
-## Встреча 2 (возможный амбициозный план)
+## Встреча 2
 
-1. ARIMA кратко
+1. ARIMA
 
-2. Базис Фурье
 
-3. TBATS
 
-4. Схематично PROPHET
+## Встреча 3
+
+1. Разница TBATS - ETS
+
+2. Тригонометрическое моделирование сезонности
+
+3. Модели состояние наблюдения
+
+4. Фильтр Калмана: легкая половина
+
+
 
 * Смысл непрерывного [преобразования Фурье](https://www.youtube.com/watch?v=spUNpyF58BY) от 3blue1brown
 * Walter Lewin [Fourier Analysis, Time evolution of Pulses on Strings](https://www.youtube.com/watch?v=k3byqIaULb8)
 * Пакет [prophet](https://facebook.github.io/prophet/) от Фейсбука
 * Статья [tbats](https://robjhyndman.com/papers/ComplexSeasonality.pdf)
+* Виньетка [пакета glm](https://cran.r-project.org/web/packages/dlm/vignettes/dlm.pdf)
 
 
-## Встреча 3 (возможный амбициозный план)
+* Aad den Vaart, [курс по временным рядам](http://www.math.leidenuniv.nl/~avdvaart/timeseries/dictaat.pdf). Очень кратко, но очень удачно изложен фильтр Калмана.
+* Decrouez, [Stochastic modelling](https://cs.hse.ru/ai/sm): Очень подробно и красивым почерком изложен фильтр Калмана. К слову, у Декруэ есть не менее шикарные [Modern methods of decision making](https://cs.hse.ru/ai/mmdm), [Probability theory](https://cs.hse.ru/ai/ptms).
+* Pollock, [Лекции по рядам](https://www.le.ac.uk/users/dsgp1/COURSES/TSERIES/PROSERIE.HTM). Нам актуальна лекция Seasons and cycles.
 
-1. Фильтр Калмана
+## Не успел, но очень хотел:
 
-2. DLM
+- полностью вывод фильтра Калмана
+- FASSTER
+- PROPHET
 
-3. FASSTER
-
-
-* Виньетка [пакета glm](https://cran.r-project.org/web/packages/dlm/vignettes/dlm.pdf) 
 * Презентация [FASSTER](http://www.mitchelloharawild.com/melburn17/#1)
-
-
-
-
-
-
